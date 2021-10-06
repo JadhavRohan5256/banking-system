@@ -48,9 +48,9 @@
                     <div class="spinner bottom"></div>
                     <label>
                     <ul id="navBar">
-                        <li><a href="index.html">Home Page</a></li>
-                        <li><a href="aboutUs.html">About Us</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="index.php">Home Page</a></li>
+                        <li><a href="aboutUs.php">About Us</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -124,7 +124,7 @@
                 <div class="company">
                     <h2>Company</h2>
                     <ul>
-                        <li><a href="aboutUs.html">About Us</a></li>
+                        <li><a href="aboutUs.phpphp">About Us</a></li>
                         <li><a href="">Term and conditions</a></li>
                         <li><a href="">Privacy policy</a></li>
                     </ul>

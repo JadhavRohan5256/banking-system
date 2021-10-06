@@ -8,7 +8,7 @@
   $result = mysqli_query($conn,$sql) or die("query can not fire");
   if($result){
     mysqli_close($conn);
-    header('location:'.$hosting.'/index.html');
+    header('location:'.$hosting.'/index.php');
 }
 else{
     mysqli_close($conn);

@@ -47,9 +47,9 @@
                     <div class="spinner bottom"></div>
                 </label>
                 <ul id="navBar">
-                    <li><a href="index.html">Home Page</a></li>
-                    <li id="currents"><a href="">About Us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="index.php">Home Page</a></li>
+                    <li id="currents"><a href="aboutUs.php">About Us</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -80,7 +80,7 @@
             <h2><span>Boosted</span> <span>Transaction</span> <span>Service</span></h2>
             <h1>24 HOUR AVAILABEL GUARANTEED</h1>
             <div class="animate-button">
-                <a href="Transfer.html">Transact Now</a>
+                <a href="Transfer.php">Transact Now</a>
             </div>
         </div>
     </section>
@@ -107,7 +107,7 @@
                 <div class="company">
                     <h2>Company</h2>
                     <ul>
-                        <li><a href="">About Us</a></li>
+                        <li><a href="aboutUs.php">About Us</a></li>
                         <li><a href="">Term and conditions</a></li>
                         <li><a href="">Privacy policy</a></li>
                     </ul>

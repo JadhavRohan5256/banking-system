@@ -48,9 +48,9 @@
                     <div class="spinner bottom"></div>
                     </label>
                     <ul id="navBar">
-                        <li id="current"><a href="">Home Page</a></li>
-                        <li><a href="aboutUs.html">About Us</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li id="current"><a href="index.php">Home Page</a></li>
+                        <li><a href="aboutUs.php">About Us</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -94,7 +94,7 @@
                 <h2>Transfer Money</h2>
                 <div class="view">
                     <span class="animate-button">
-                        <a href="Transfer.html">Transfer</a>
+                        <a href="Transfer.php">Transfer</a>
                     </span>
                 </div>
             </div>
@@ -118,7 +118,7 @@
                     <h2>SAFE TRANSACTION</h2>
                     <h1>24 HOUR AVAILABEL</h1>
                     <span class="animate-button">
-                        <a href="aboutUs.html">About Us</a>
+                        <a href="aboutUs.php">About Us</a>
                     </span>
                 </div>
                 <div class="secure">
@@ -134,7 +134,7 @@
                 <div class="company">
                     <h2>Company</h2>
                     <ul>
-                        <li><a href="aboutUs.html">About Us</a></li>
+                        <li><a href="aboutUs.php">About Us</a></li>
                         <li><a href="">Term and conditions</a></li>
                         <li><a href="">Privacy policy</a></li>
                     </ul>
