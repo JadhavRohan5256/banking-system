@@ -1,0 +1,13 @@
+@media only screen and (max-width:500px){
+    table{
+        font-size:1rem;
+    }
+}
+@media only screen and (max-width:280px){
+    table{
+        font-size:1.2rem;
+    }
+    #table{
+        overflow-x: auto;
+    }
+}

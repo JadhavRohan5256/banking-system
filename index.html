@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <link rel="stylesheet" href="css/index.css">
+    <!-- carousel path start -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.green.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- carousel path end -->
+    <!-- font awesome link start -->
+    <script src="https://kit.fontawesome.com/a2a0858223.js"></script> 
+    <!-- font awesome link end -->
+    <!-- carousel path start  -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- carousel path end -->
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                items:1,
+                loop:true,
+                nav:true,
+                autoplay:true,
+                autoplayTimeout:3000,
+                animateOut:true,
+            });
+        })
+    </script>
+</head>
+
+<body>
+    <div id="top"></div>
+    <!-- navagation section start  -->
+    <section class="navagation" id="nav">
+        <div class="container">
+            <div class="nav">
+                <img src="img/logo.png" alt="logo" class="logo">
+                <input type="checkbox" id="check">
+                <label for="check" class="sideBarIcon">
+                    <div class="spinner top"></div>
+                    <div class="spinner middle"></div>
+                    <div class="spinner bottom"></div>
+                    </label>
+                    <ul id="navBar">
+                        <li id="current"><a href="">Home Page</a></li>
+                        <li><a href="aboutUs.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- navagation section end -->
+        <!-- title image start  -->
+        <div class="title owl-carousel owl-theme" id="slide">
+            <div class="item">
+                <img src="img/img2.jpg" alt="img2.jpeg"  class="item">
+            </div>
+            <div class="item">
+                <img src="img/img1.jpg" alt="img1.jpeg"  class="item">
+            </div>
+            <div class="item">
+                <img src="img/img3.jpg" alt="img3.jpeg"  class="item">
+            </div>
+        </div>
+        <!-- title image end -->
+        <div class="top">
+            <a href="#top">
+                <h2>Back to Top</h2>
+        </a>
+    </div>
+    <!-- service container  start-->
+    <div class="heading">
+        <h2>Service</h2>
+    </div>
+    <section class="container">
+        <div class="service">
+            <div class="transaction box">
+                <img src="img/customer.png" alt="customer.png" class="img">
+                <h2>View all Customers</h2>
+                <div class="view">
+                    <span class="animate-button">
+                        <a href="customer.php">View</a>
+                    </span>
+                </div>
+            </div>
+            <div class="transaction box">
+                <img src="img/transaction.png" alt="customer.png" class="img">
+                <h2>Transfer Money</h2>
+                <div class="view">
+                    <span class="animate-button">
+                        <a href="Transfer.html">Transfer</a>
+                    </span>
+                </div>
+            </div>
+            <div class="tranHistory box">
+                <img src="img/history of transaction.jpg" alt="history of transaction.png" class="img">
+                <h2>Transaction History</h2>
+                <div class="view">
+                    <span class="animate-button">
+                        <a href="history.php">Check</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service container  end-->
+
+    <div class="aboutUs">
+        <section class="container">
+            <div class="safe">
+                <div class="about">
+                    <h2>SAFE TRANSACTION</h2>
+                    <h1>24 HOUR AVAILABEL</h1>
+                    <span class="animate-button">
+                        <a href="aboutUs.html">About Us</a>
+                    </span>
+                </div>
+                <div class="secure">
+                    <img src="img/secure.png" alt="logo">
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- footer section start  -->
+    <footer>
+        <section class="container">
+            <div class="footer">
+                <div class="company">
+                    <h2>Company</h2>
+                    <ul>
+                        <li><a href="aboutUs.html">About Us</a></li>
+                        <li><a href="">Term and conditions</a></li>
+                        <li><a href="">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h2>Contact Details</h2>
+                    <ul>
+                        <li><a href="">sparkfoundation@gmail.com</a></li>
+                        <li><a href="">+919898989984</a></li>
+                    </ul>
+                </div>
+                <div class="support">
+                    <h2>Tech Support</h2>
+                    <ul>
+                        <li><a href="">Installation guild</a></li>
+                        <li><a href="">Sign Out</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <h2>Copyrigh @2021 All rights reserved</h2>
+    </footer>
+    <!-- footer section end -->
+</body>
+
+</html>
